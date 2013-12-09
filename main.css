@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End Clear */
+
+/* Begin Style */
+
+/* General */
+
+p, li, a {
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+}
+
+h1 {
+	display: block;
+	font-size: 58px;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: -2px;
+	font-family: 'Times New Roman', Georgia, serif;
+
+
+}
+
+h4 {
+	display: block;
+	font-size: 22px;
+	text-align: center;
+	letter-spacing: -1px;
+	font-family: 'Times New Roman', Georgia, serif;
+
+
+}
+
+body	{
+	padding: 0px 30px;
+}
+/* Header */
+header ul {
+	float: right;
+	margin-top: 10px;
+}
+
+header ul li, header ul li a {
+	font-size: 12px;
+	margin: 8px;
+	display: inline-block;
+	text-decoration: none;
+	color: #369;
+}
+
+header ul li a :hover {
+	color: #6699cc;
+}
+
+p.cur_date {
+	position: absolute;
+	top: 30px;
+	left: 55px; 
+	color: #999;
+	font-size: 12px;
+}
+
+li a.sign_in {
+	color: #18afe0;
+}
+
+li a.sign_in:hover {
+	color: #369;
+}
+
+/* Main Logo */
+
+div.main_logo {
+	clear: both;
+	margin: 20px;
+	height: 35px;
+	text-align: center;
+}
+
+/* Container */
+
+div.container {
+	margin: auto;
+	height: 161px;
+	width: 925px;
+}
+
+div.container h4 {
+	margin-top: 20px;
+}
+
+div.container span {
+	color:#369;
+	text-decoration: underline;
+}
+/* button icons */
+
+div.btn_container {
+	margin: auto;
+	margin-top: 20px;
+	width: 720px;
+}
+
+div.prod_btn {
+	display: inline-block;
+	border-radius: 5%;
+	border: 1px #CCC solid;
+	padding: 10px;
+	height: 213px;
+	width: 160px;
+	margin: 15px; 
+	background: linear-gradient(#FFF, #E8E8E8);
+	/* box-shadow: 1px -1px 1px 1px #888; */
+}
+
+div.prod_btn img {
+	display: block;
+	margin: auto;
+	margin-top: 5px;
+}
+
+div.prod_btn h2 {
+	color: #369;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 21px;
+	margin: 8px;
+	font-weight: bold;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+
+div.prod_btn h3 {
+	color: #C00;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin: 10px;
+}
+
+div.prod_btn p {
+	text-align: center;
+	font-size: 14px;
+	margin: 20px 0;
+	line-height: 1.4em;
+	color: #000;
+}
+
+/* jQuery hiding */
+div.basecamp_text, div.highrise_text, div.campfire_text {
+	display: none;
+}
