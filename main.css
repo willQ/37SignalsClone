@@ -138,6 +138,10 @@ div.container h4 {
 	margin-top: 20px;
 }
 
+div.basecamp_text h4, div.highrise_text h4, div.campfire_text h4 {
+	font-family: 
+}
+
 div.container span {
 	color:#369;
 	text-decoration: underline;
@@ -147,11 +151,12 @@ div.container span {
 div.btn_container {
 	margin: auto;
 	margin-top: 20px;
-	width: 720px;
+	width: 650px;
 }
 
 div.prod_btn {
 	display: inline-block;
+	margin: auto;
 	border-radius: 5%;
 	border: 1px #CCC solid;
 	padding: 10px;
@@ -169,6 +174,7 @@ div.prod_btn img {
 }
 
 div.prod_btn h2 {
+	position: relative;
 	color: #369;
 	text-decoration: underline;
 	text-align: center;
@@ -180,6 +186,7 @@ div.prod_btn h2 {
 }
 
 div.prod_btn h3 {
+	position: relative;
 	color: #C00;
 	text-align: center;
 	font-size: 14px;
@@ -189,6 +196,7 @@ div.prod_btn h3 {
 }
 
 div.prod_btn p {
+	position: relative;
 	text-align: center;
 	font-size: 14px;
 	margin: 20px 0;
@@ -199,4 +207,32 @@ div.prod_btn p {
 /* jQuery hiding */
 div.basecamp_text, div.highrise_text, div.campfire_text {
 	display: none;
+	width: 850px;
+}
+
+
+img.arrow {
+	position: relative;
+	top: -270px;
+	right: -90px;
+}
+
+img.arrow_right {
+	position: relative;
+	top: -270px;
+	left: -90px;
+}
+
+div.basecamp_text h1, div.highrise_text h1, div.campfire_text h1 {
+	font-size: 50px;
+	font-weight: 590;
+}
+
+div.basecamp_text p, div.highrise_text p, div.campfire_text p {
+	position: relative;
+	top: 10px;
+	font-size: 15px;
+	margin: 5px;
+	text-align: center;
+	line-height: 130%;
 }
